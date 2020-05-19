@@ -24,8 +24,8 @@ def get_data():
     ejer=input()
     return [edad,altura,peso,gen,ps,pd,col,gluc,fum,alco,ejer]
 
-#Función para categorizar el tipo colesterol, de acuerdo con el valor ingresado 
-#por el usuario, de acuerdo a los niveles sugeridos por American Heart Association
+#Función para categorizar el colesterol, de acuerdo con el valor ingresado 
+#por el usuario, según los niveles sugeridos por American Heart Association
 def prueba_col(colest):
     if colest<200:
         return 1
@@ -34,7 +34,8 @@ def prueba_col(colest):
     else:
         return 3
 
-
+#Categoriza el nivel de glucosa, de acuerdo a los valores sugeridos por 
+#el portal news-medical.net
 def prueba_glucosa(gluc):
     if gluc<110:
         return 1
@@ -43,6 +44,7 @@ def prueba_glucosa(gluc):
     else:
         return 3
 
+#Funciones para categorizar el consumo de tabaco, ejercicio, alcohol y género.
 def tabaco(f):
     if f=='s' or f=='S':
         return 1
@@ -67,6 +69,7 @@ def genero(f):
     else:
         return 1
 
+#Función para calcular el IMC(Índice de Masa Corporal)
 def IMC(alt,pes):
     return round((pes*10000)/(alt**2),2)
 
@@ -87,6 +90,7 @@ def prueba_datos(data):
     return [[edad,gen_final,altura,peso,ps,pd,col_fin,glu_fin,
                 tab_fin,alco_fin,ejer_fin,imc_fin]]
 
+#Función para analizar los datos de IMC, colesterol y glucosa. 
 def analisis_resultado(prueba):
     a=prueba[0]
     if a[-1]<18.5:
