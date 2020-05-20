@@ -3,9 +3,9 @@
 
 Las enfermedades cardiovasculares (ECV) son un conjunto de trastornos del corazón y de los vasos sanguíneos. De acuerdo con la Organización Mundial de la Salud (OMS) son la principal causa de muerte en el mundo, las cifras de defunciones tanto en hombres como en mujeres abarcan más del 40% de las enfermedades crónicas. 
 
-![](/Users/sylviac/ProyectoFinal/Images/F_oms.jpg)
+![](Images/F_oms.jpg)
 
-![](/Users/sylviac/ProyectoFinal/Images/H_oms.jpg)
+![](Images/H_oms.jpg)
 
 A pesar de que los factores de riesgo son conocidos, es muy habitual que los síntomas se confundan y que las enfermedades se reconozcan únicamente cuando el estado de salud se ha deteriorado. Debido a que no existe una fórmula ni una manera para predecir manualmente cómo es que esos factores son responsables de una ECV, una herramienta que puede ser implementada para la prevención y detección temprana de este tipo de enfermedades es la ciencia de datos, particularmente aplicando técnicas de Machine Learning. 
 
